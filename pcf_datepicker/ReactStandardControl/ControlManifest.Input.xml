@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="fluentuiControls" constructor="DatePickerControl" version="1.0.0" display-name-key="TS_DatePickerControl_Display_Key" description-key="TS_DatePickerControl_Desc_Key" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="dateOfPicker" display-name-key="dateOfPicker_Display_Key" description-key="dateOfPicker_Desc_Key" of-type="DateAndTime.DateOnly" usage="bound" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/Control.css" order="2" />
+    </resources>
+  </control>
+</manifest>
